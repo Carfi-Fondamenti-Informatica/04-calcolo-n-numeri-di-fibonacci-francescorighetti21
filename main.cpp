@@ -11,10 +11,13 @@ int main() {
      }else{
    cout << "1" << endl;
        cout << "1" << endl;
-   for(int i=o; i<n;i++){
+   for(int i=o; i<(numero -3);++i){
    risultato=a+b;
       cout << risultato << endl;
+ a=b;
+      b=risultato;
    }
+      
 
     }
 
