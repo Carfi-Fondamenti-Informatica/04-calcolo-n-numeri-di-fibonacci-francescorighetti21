@@ -2,25 +2,20 @@
 using namespace std;
 
 int main() {
-   int numero;
- int risultato=0; a=1; b=1;
+ int numero=0; a=1; b=1, c=0;
    cin >> numero;
-   if(numero<2){
-      cout << "errore" <<;
-    
-     }else{
-   cout << "1" << endl;
-       cout << "1" << endl;
-   for(int i=o; i<=(numero -3);++i){
-   risultato=a+b;
-      cout << risultato << endl;
- a=b;
-      b=risultato;
-   }
+   if(numero>=2){
+      cout << a << endl << b << endl;
+   for(int i=2; i<(numero);i++){
+   c=a+b;
+      a=b;
+      b=c;
+      cout << c << endl;
+      }
+      }else {
+      cout << "errore" << endl;
       
-
-    }
-
+}
    
    
    
