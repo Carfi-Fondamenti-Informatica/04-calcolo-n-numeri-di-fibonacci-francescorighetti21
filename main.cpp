@@ -12,9 +12,9 @@ int main() {
       return 0;
      }
    cout << precedente << endl << successivo << endl;
-   for(int i=o; i<n;++1){
+   for(int i=o; i<n;++i){
       result=precedente+successivo;
-      precedente0successivo;
+      precedente=successivo;
       successivo=result;
       cout << result << endl;
    }
