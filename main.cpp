@@ -5,8 +5,8 @@ int main() {
    int numero;
  int risultato=0; a=1; b=1;
    cin >> numero;
-   if(n<2){
-      cout << "errore" << endl;
+   if(numero<2){
+      cout << "errore" <<;
     
      }else{
    cout << "1" << endl;
